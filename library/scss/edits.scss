@@ -7,33 +7,13 @@ $red: #e84040;
 	box-shadow: 0px -300px 200px rgba($red,0.2) inset;
 }
 
-@mixin textShadow {
-	text-shadow: 1px 1px 5px #666;
-}
-
-@mixin ctaLinkText {
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
 /* Custom Animations */
-
-.fast {
-    -vendor-animation-duration: 1s;
-    -vendor-animation-delay: 0s;
-}
 .slow {
     -vendor-animation-duration: 3s;
     -vendor-animation-delay: 1s;
 }
-.reallyslow {
-    -vendor-animation-duration: 6s;
-    -vendor-animation-delay: 3s;
-}
 
 /* Northeastern Styles */
-
 .article-topper {
 	position: relative;
 	border-bottom: 5px solid $red;
