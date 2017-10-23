@@ -1,1 +1,1 @@
-About Us page redesign for Turbonomic
+Blog article redesign.
